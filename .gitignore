@@ -1,0 +1,22 @@
+# Source documents and proprietary bibliographic exports
+*.pdf
+*.ris
+*.enw
+*.xlsx
+*.xls
+*.docx
+*.zip
+
+# Intermediate and sensitive study records
+private/
+raw_wos/
+original_pdfs/
+reviewer_private/
+screening_unverified/
+
+# Local environment
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
