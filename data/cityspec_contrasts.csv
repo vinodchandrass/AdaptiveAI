@@ -1,0 +1,49 @@
+wos_id,pdf_page,table,domain,setting,backbone,metric,nonadaptive_percent,adaptive_percent,difference_percentage_points,evidence_type,eligibility
+WOS_001011958000001,23,Table 4,City,Seattle,BiLSTM+CRF,Token accuracy,84.91,96.05,11.14,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Seattle,BiLSTM+CRF,Sentence accuracy,48.0,84.8,36.8,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Seattle,BiLSTM+CRF,F1,77.6,93.75,16.15,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Changsha,BiLSTM+CRF,Token accuracy,86.61,95.27,8.66,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Changsha,BiLSTM+CRF,Sentence accuracy,61.2,83.2,22.0,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Changsha,BiLSTM+CRF,F1,84.1,93.57,9.47,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Charlottesville,BiLSTM+CRF,Token accuracy,90.0,96.82,6.82,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Charlottesville,BiLSTM+CRF,Sentence accuracy,65.62,89.29,23.67,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Charlottesville,BiLSTM+CRF,F1,86.48,95.4,8.92,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Jacksonville,BiLSTM+CRF,Token accuracy,77.32,97.35,20.03,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Jacksonville,BiLSTM+CRF,Sentence accuracy,35.2,88.8,53.6,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Jacksonville,BiLSTM+CRF,F1,81.54,96.02,14.48,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Seattle,BERT,Token accuracy,80.38,95.1,14.72,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Seattle,BERT,Sentence accuracy,46.4,80.7,34.3,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Seattle,BERT,F1,76.8,90.28,13.48,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Changsha,BERT,Token accuracy,86.1,97.16,11.06,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Changsha,BERT,Sentence accuracy,58.0,88.4,30.4,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Changsha,BERT,F1,83.87,96.88,13.01,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Charlottesville,BERT,Token accuracy,93.44,97.53,4.09,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Charlottesville,BERT,Sentence accuracy,73.21,87.05,13.84,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Charlottesville,BERT,F1,90.46,94.31,3.85,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Jacksonville,BERT,Token accuracy,90.21,96.27,6.06,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Jacksonville,BERT,Sentence accuracy,56.4,83.2,26.8,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,23,Table 4,City,Jacksonville,BERT,F1,81.6,92.59,10.99,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Noise Control,BiLSTM+CRF,Token accuracy,77.82,95.82,18.0,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Noise Control,BiLSTM+CRF,Sentence accuracy,41.56,90.68,49.12,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Noise Control,BiLSTM+CRF,F1,77.83,94.46,16.63,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Public Access,BiLSTM+CRF,Token accuracy,73.99,97.68,23.69,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Public Access,BiLSTM+CRF,Sentence accuracy,44.07,74.8,30.73,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Public Access,BiLSTM+CRF,F1,74.41,97.39,22.98,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Indoor Air Control,BiLSTM+CRF,Token accuracy,81.51,95.58,14.07,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Indoor Air Control,BiLSTM+CRF,Sentence accuracy,46.8,80.0,33.2,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Indoor Air Control,BiLSTM+CRF,F1,76.22,87.68,11.46,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Security,BiLSTM+CRF,Token accuracy,72.11,94.39,22.28,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Security,BiLSTM+CRF,Sentence accuracy,28.8,94.37,65.57,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Security,BiLSTM+CRF,F1,62.93,92.34,29.41,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Noise Control,BERT,Token accuracy,84.15,98.07,13.92,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Noise Control,BERT,Sentence accuracy,58.62,88.31,29.69,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Noise Control,BERT,F1,81.05,92.98,11.93,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Public Access,BERT,Token accuracy,83.59,97.43,13.84,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Public Access,BERT,Sentence accuracy,54.17,88.75,34.58,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Public Access,BERT,F1,78.93,95.75,16.82,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Indoor Air Control,BERT,Token accuracy,78.51,95.31,16.8,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Indoor Air Control,BERT,Sentence accuracy,31.2,74.4,43.2,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Indoor Air Control,BERT,F1,73.88,93.6,19.72,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Security,BERT,Token accuracy,79.31,95.41,16.1,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Security,BERT,Sentence accuracy,45.6,82.8,37.2,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
+WOS_001011958000001,24,Table 5,Topic,Security,BERT,F1,77.5,93.95,16.45,Matched adaptation performance; no old-task retention or cost contrast,UNDECIDED
