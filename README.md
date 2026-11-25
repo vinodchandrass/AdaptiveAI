@@ -22,3 +22,16 @@ No copyrighted article PDFs, unrestricted original WoS exports, or reviewers' pe
 ## Research title
 
 Beyond Adaptation Accuracy: A Systematic Review of Evidence Quality, Net Benefit, and Capability Preservation in Open-World AI.
+
+## Run the computational checks
+
+Use Python 3.11 from the repository root:
+
+```sh
+python -m pip install -r requirements.txt
+python analysis/reproduce.py
+python analysis/reproduce_extended.py
+python analysis/generate_figures.py
+```
+
+The extended script checks all eight evidence-coverage counts, candidate linkage and CitySpec F1 means; it calculates differences from prior Table 5 transcriptions. The figure script regenerates numerical illustrations at 600 DPI, not necessarily identical graphical layouts. GitHub Actions runs these commands and checks that tracked JSON results are unchanged. Figure existence is checked, not pixel identity. A passing run does not authenticate original sources or establish final eligibility. Direct dependency version is pinned; transitive dependencies are not locked.
