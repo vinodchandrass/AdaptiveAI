@@ -1,0 +1,20 @@
+name: Reproduce derived results
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    env:
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements.txt
+      - run: python analysis/reproduce.py
+      - run: python analysis/reproduce_extended.py
+      - run: python analysis/generate_figures.py
+      - run: python -c "from pathlib import Path; assert all(Path('results', p).stat().st_size > 0 for p in ['Figure3_reproduced.png','Figure4_reproduced.png'])"
+      - run: git diff --exit-code -- results/verification.json results/extended_verification.json
