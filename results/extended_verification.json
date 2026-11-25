@@ -1,0 +1,186 @@
+{
+  "coverage": {
+    "evaluation": {
+      "count": 247,
+      "percent": 93.92
+    },
+    "temporal_shift": {
+      "count": 228,
+      "percent": 86.69
+    },
+    "retention": {
+      "count": 226,
+      "percent": 85.93
+    },
+    "numerical_table": {
+      "count": 180,
+      "percent": 68.44
+    },
+    "cost": {
+      "count": 154,
+      "percent": 58.56
+    },
+    "static_baseline": {
+      "count": 60,
+      "percent": 22.81
+    },
+    "all_five": {
+      "count": 29,
+      "percent": 11.03
+    },
+    "control_and_numerical": {
+      "count": 18,
+      "percent": 6.84
+    }
+  },
+  "cityspec_f1": {
+    "city": 11.29,
+    "topic": 18.18
+  },
+  "table5_transcribed_differences": [
+    {
+      "study": "SD",
+      "wos_id": "WOS_001066282600001",
+      "page": "19",
+      "table": "6(b)",
+      "metric": "accuracy",
+      "baseline": "38.97",
+      "adaptive": "47.68",
+      "unit": "percent",
+      "difference": 8.71
+    },
+    {
+      "study": "SD",
+      "wos_id": "WOS_001066282600001",
+      "page": "19",
+      "table": "6(b)",
+      "metric": "forgetting",
+      "baseline": "43.34",
+      "adaptive": "27.86",
+      "unit": "points",
+      "difference": -15.48
+    },
+    {
+      "study": "SD",
+      "wos_id": "WOS_001066282600001",
+      "page": "19",
+      "table": "complexity discussion",
+      "metric": "iteration time",
+      "baseline": "37",
+      "adaptive": "60",
+      "unit": "ms",
+      "difference": 23.0
+    },
+    {
+      "study": "TRAF",
+      "wos_id": "WOS_000971403300001",
+      "page": "10",
+      "table": "4",
+      "metric": "accuracy",
+      "baseline": "70.47",
+      "adaptive": "75",
+      "unit": "percent",
+      "difference": 4.53
+    },
+    {
+      "study": "TRAF",
+      "wos_id": "WOS_000971403300001",
+      "page": "10",
+      "table": "4",
+      "metric": "forgetting",
+      "baseline": "4.11",
+      "adaptive": "3.32",
+      "unit": "points",
+      "difference": -0.79
+    },
+    {
+      "study": "LIQA",
+      "wos_id": "WOS_001097340300053",
+      "page": "11",
+      "table": "4",
+      "metric": "correlation",
+      "baseline": "0.566",
+      "adaptive": "0.695",
+      "unit": "index",
+      "difference": 0.129
+    },
+    {
+      "study": "LIQA",
+      "wos_id": "WOS_001097340300053",
+      "page": "11",
+      "table": "4",
+      "metric": "forgetting",
+      "baseline": "0.214",
+      "adaptive": "0.087",
+      "unit": "index",
+      "difference": -0.127
+    },
+    {
+      "study": "CCL",
+      "wos_id": "WOS_001012677300001",
+      "page": "6",
+      "table": "II",
+      "metric": "forgetting",
+      "baseline": "22",
+      "adaptive": "12.7",
+      "unit": "reported points",
+      "difference": -9.3
+    },
+    {
+      "study": "CIBL",
+      "wos_id": "WOS_001098876300001",
+      "page": "12",
+      "table": "IV",
+      "metric": "ADE d1",
+      "baseline": "4.82",
+      "adaptive": "2.55",
+      "unit": "reported units",
+      "difference": -2.27
+    },
+    {
+      "study": "CIBL",
+      "wos_id": "WOS_001098876300001",
+      "page": "12",
+      "table": "IV",
+      "metric": "FDE d1",
+      "baseline": "11.53",
+      "adaptive": "6.36",
+      "unit": "reported units",
+      "difference": -5.17
+    },
+    {
+      "study": "CBCL-PR",
+      "wos_id": "WOS_001126639000025",
+      "page": "7",
+      "table": "II",
+      "metric": "5-shot 2 classes",
+      "baseline": "56.9",
+      "adaptive": "57.9",
+      "unit": "percent",
+      "difference": 1.0
+    },
+    {
+      "study": "CBCL-PR",
+      "wos_id": "WOS_001126639000025",
+      "page": "7",
+      "table": "II",
+      "metric": "10-shot 10 classes",
+      "baseline": "61.3",
+      "adaptive": "62.5",
+      "unit": "percent",
+      "difference": 1.2
+    },
+    {
+      "study": "Metacognitive",
+      "wos_id": "WOS_001071271900012",
+      "page": "3",
+      "table": "1",
+      "metric": "gamma 0.2 score",
+      "baseline": "79.5",
+      "adaptive": "81.6",
+      "unit": "reported points",
+      "difference": 2.1
+    }
+  ],
+  "scope": "Reproduces descriptive arithmetic from existing machine-assisted flags and prior source transcriptions, not original PDF extraction or eligibility."
+}

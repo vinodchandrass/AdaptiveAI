@@ -1,8 +1,14 @@
 {
   "corpus": 1379,
-  "historical_advancement": {"Include": 854, "Uncertain": 121, "not_advanced": 404},
+  "historical_advancement": {
+    "Include": 854,
+    "Uncertain": 121,
+    "not_advanced": 404
+  },
   "candidate_count": 263,
-  "candidate_status": {"NOT_DETERMINED": 263},
+  "candidate_status": {
+    "NOT_DETERMINED": 263
+  },
   "cityspec_contrasts": 48,
   "grtp_rows": 25,
   "illustrative_utility": {
