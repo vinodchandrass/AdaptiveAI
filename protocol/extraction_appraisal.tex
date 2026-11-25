@@ -1,0 +1,114 @@
+% Extracted from AdaptiveAI(5).tex; manuscript snapshot, not preregistration.
+\subsection{Evidence Extraction and Methodological Appraisal}
+
+The extraction framework preserves the experimental
+context required to interpret reported findings.
+Six information categories are distinguished:
+
+\begin{enumerate}
+	\item \textbf{Study characteristics (EE1):}
+	publication identifier, year, research objective,
+	application domain, and learning paradigm.
+	
+	\item \textbf{Adaptation mechanism (EE2):}
+	update strategy, adaptation trigger, learning
+	objective, supervision, historical-data access,
+	and preservation mechanisms.
+	
+	\item \textbf{Environmental change and evaluation
+		protocol (EE3):} distribution shifts, task
+	transitions, temporal ordering, task-boundary
+	information, and naturally occurring or
+	experimentally constructed changes.
+	
+	\item \textbf{Comparator characteristics (EE4):}
+	adaptation status, architecture, initialisation,
+	pre-training, information access, and
+	computational budgets.
+	
+	\item \textbf{Experimental outcomes (EE5):}
+	performance, capability-preservation, and
+	resource measurements in their original
+	definitions and units.
+	
+	\item \textbf{Evidence provenance (EE6):}
+	source publication, experimental configuration,
+	table, figure, equation, textual passage, and
+	PDF page number where available.
+\end{enumerate}
+
+Multiple adaptation categories may be assigned to
+a single system. Machine-assisted identification
+of candidate evidence is distinguished from
+source-level numerical verification; automated
+indicators do not establish the presence or absence
+of valid experimental evidence.
+
+The proposed methodological appraisal comprises
+seven claim-specific domains. These reflect concerns
+arising from experimental design, computational
+reporting, benchmark variability, and reproducibility
+in machine learning
+\cite{wohlin2012experimentation,bouthillier2021variance,
+	pineau2021improving,henderson2020systematic}.
+
+\begin{description}
+	\item[\textbf{Q1: Environmental-change validity.}]
+	Relevance of the experimental change scenario,
+	task transitions, temporal ordering, and
+	information about environmental changes.
+	
+	\item[\textbf{Q2: Comparator fairness.}]
+	Comparability of architecture, initialisation,
+	pre-training, information access, adaptation
+	budgets, and evaluation conditions.
+	
+	\item[\textbf{Q3: Experimental validity.}]
+	Separation of training and evaluation
+	information, avoidance of data leakage and
+	future-information access, and consistency
+	of experimental conditions.
+	
+	\item[\textbf{Q4: Capability-preservation assessment.}]
+	Explicit post-adaptation evaluation of previously
+	acquired capabilities using interpretable
+	retention measurements.
+	
+	\item[\textbf{Q5: Resource-accounting validity.}]
+	Completeness and comparability of hardware,
+	execution-time, memory, parameter, energy,
+	and information-access measurements.
+	
+	\item[\textbf{Q6: Statistical reliability.}]
+	Adequacy of repeated trials, random seeds,
+	task-order sensitivity, uncertainty estimates,
+	and treatment of dependent observations.
+	
+	\item[\textbf{Q7: Reproducibility.}]
+	Availability of implementation details, data,
+	code, hyperparameters, and evaluation procedures
+	necessary to understand or reproduce the
+	reported experiments.
+\end{description}
+
+Each applicable appraisal domain is classified as
+\emph{low concern}, \emph{high concern},
+\emph{unclear concern}, or \emph{not applicable},
+according to methodological adequacy, identified
+limitations, information sufficiency, and relevance
+to the claim.
+
+Judgements remain claim-specific rather than being
+aggregated into a composite quality score. The
+appraisal framework is review-specific and has not
+been independently validated as a risk-of-bias
+instrument. Aggregate appraisal results are not
+reported because formal domain-level assessments
+remain incomplete.
+
+Evidence availability is distinguished from
+methodological validity. Unresolved and
+non-applicable assessments are distinguished from
+verified absence of reporting. Missing retention
+or resource measurements do not imply zero
+forgetting or zero expenditure.
