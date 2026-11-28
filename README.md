@@ -32,6 +32,9 @@ python -m pip install -r requirements.txt
 python analysis/reproduce.py
 python analysis/reproduce_extended.py
 python analysis/generate_figures.py
+python analysis/run_all.py
 ```
 
 The extended script checks all eight evidence-coverage counts, candidate linkage and CitySpec F1 means; it calculates differences from prior Table 5 transcriptions. The figure script regenerates numerical illustrations at 600 DPI, not necessarily identical graphical layouts. GitHub Actions runs these commands and checks that tracked JSON results are unchanged. Figure existence is checked, not pixel identity. A passing run does not authenticate original sources or establish final eligibility. Direct dependency version is pinned; transitive dependencies are not locked.
+
+The standard-library regression suite checks six analytical cases, including 5,151 preference-weight combinations, Pareto frontiers, constraints, effect calculations and invalid weights. All six tests passed in author-side execution (28 November 2026). This establishes computational consistency, not independent empirical framework validation.
